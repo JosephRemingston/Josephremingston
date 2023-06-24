@@ -38,6 +38,6 @@ app.post('/', async (req, res) => {
       });
 });
 
-app.listen(process.env.PORT , () => {
+app.listen(200 , () => {
   console.log("server");
 })

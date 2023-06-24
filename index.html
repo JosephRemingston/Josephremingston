@@ -10,8 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Pacifico&display=swap" rel="stylesheet">
 </head>
-<body class="main">
-  <nav class="navbar rounded navbar-expand-lg bg-body-tertiary" style="background: linear-gradient(#1a1a1a, #000000);">
+<body class="main" style="background-color: black;">
+  <nav class="navbar rounded navbar-expand-lg bg-body-tertiary" style="background-color: black !important;">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"><div class="logo-img">
           JR
@@ -28,7 +28,7 @@
               <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" class="contact-btn" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -40,7 +40,7 @@
           <h1 class="txt-main display-4 fw-bold lh-1 text-body-emphasis" style="color: white !important;">I'm <span class="bld-txt">Joseph Remingston</span></h1>
           <p class="txt lead">A <span class="bld-txt"> Full Stack</span> Developer</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Resume</button>
+            <button type="button" class="btn contact-btn btn-primary btn-lg px-4 me-md-2 fw-bold">Resume</button>
             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Contact</button>
           </div>
         </div>
@@ -49,124 +49,119 @@
         </div>
       </div>
     </div>
-  <h2 class="txt" style="margin-left: 20px; padding-left: 10px">Projects</h2>
-  <div class="projects" style="background: linear-gradient(#1a1a1a, #000000);">
-    <div class="flip-card-container" style="--hue: 220">
-      <div class="flip-card">
-
-        <div class="card-front">
-          <figure>
-            <div class="img-bg"></div>
-            <img src="public/img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Brohm Lake">
-            <figcaption>Personal Website</figcaption>
-          </figure>
-        </div>
-
-        <div class="card-back">
-          <figure>
-            <div class="img-bg"></div>
-            <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
-          </figure>
-
-          <button class="btn-portfolio-live">Live demo</button>
-          <button class=" btn-portfolio-code">View source code</button>
-
-          <div class="design-container">
-            <span class="design design--1"></span>
-            <span class="design design--2"></span>
-            <span class="design design--3"></span>
-            <span class="design design--4"></span>
-            <span class="design design--5"></span>
-            <span class="design design--6"></span>
-            <span class="design design--7"></span>
-            <span class="design design--8"></span>
+  <section style="background-color: black;">
+    <h2 class="txt" style="margin-left: 20px; padding-left: 10px; margin-top:20px; padding-top: 10px;">Projects</h2>
+    <div class="projects" style="background-color: black;">
+      <div class="flip-card-container" style="--hue: 220">
+        <div class="flip-card">
+  
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="public/img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Brohm Lake">
+              <figcaption>Personal Website</figcaption>
+            </figure>
           </div>
-        </div>
-
-      </div>
-    </div>
-    <!-- /flip-card-container -->
-
-    <!-- flip-card-container -->
-    <div class="flip-card-container" style="--hue: 170">
-      <div class="flip-card">
-
-        <div class="card-front">
-          <figure>
-            <div class="img-bg"></div>
-            <img src="public/img/jason-charters-IorqsMssQH0-unsplash.jpg" alt="Image 2">
-            <figcaption>Football Website</figcaption>
-          </figure>
-        </div>
-
-        <div class="card-back">
-          <figure>
-            <div class="img-bg"></div>
-            <img src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image-2">
-          </figure>
-
-          <button>Book</button>
-
-          <div class="design-container">
-            <span class="design design--1"></span>
-            <span class="design design--2"></span>
-            <span class="design design--3"></span>
-            <span class="design design--4"></span>
-            <span class="design design--5"></span>
-            <span class="design design--6"></span>
-            <span class="design design--7"></span>
-            <span class="design design--8"></span>
+  
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
+            </figure>
+  
+            <button class="btn-portfolio-live">Live demo</button>
+            <button class=" btn-portfolio-code">View source code</button>
+  
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
           </div>
-        </div>
-
-      </div>
-    </div>
-    <!-- /flip-card-container -->
-
-    <!-- flip-card-container -->
-    <div class="flip-card-container" style="--hue: 350">
-      <div class="flip-card">
-
-        <div class="card-front">
-          <figure>
-            <div class="img-bg"></div>
-            <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
-            <figcaption>Brohm Lake</figcaption>
-          </figure>
-        </div>
-
-        <div class="card-back">
-          <!-- only if the image is necessary -->
-          <figure>
-            <div class="img-bg"></div>
-            <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
-          </figure>
-
-          <button>Book</button>
-
-          <!-- can add svg here and remove these eight spans -->
-          <div class="design-container">
-            <span class="design design--1"></span>
-            <span class="design design--2"></span>
-            <span class="design design--3"></span>
-            <span class="design design--4"></span>
-            <span class="design design--5"></span>
-            <span class="design design--6"></span>
-            <span class="design design--7"></span>
-            <span class="design design--8"></span>
-          </div>
+  
         </div>
       </div>
+      <!-- /flip-card-container -->
+  
+      <!-- flip-card-container -->
+      <div class="flip-card-container" style="--hue: 170">
+        <div class="flip-card">
+  
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="public/img/jason-charters-IorqsMssQH0-unsplash.jpg" alt="Image 2">
+              <figcaption>Football Website</figcaption>
+            </figure>
+          </div>
+  
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image-2">
+            </figure>
+  
+            <button>Book</button>
+  
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <!-- /flip-card-container -->
+  
+      <!-- flip-card-container -->
+      <div class="flip-card-container" style="--hue: 350">
+        <div class="flip-card">
+  
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
+              <figcaption>Brohm Lake</figcaption>
+            </figure>
+          </div>
+  
+          <div class="card-back">
+            <!-- only if the image is necessary -->
+            <figure>
+              <div class="img-bg"></div>
+              <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
+            </figure>
+  
+            <button>Book</button>
+  
+            <!-- can add svg here and remove these eight spans -->
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
   <div class="container d-flex justify-content-center align-items-center">
-
-    <!-- // SVG
-                    from: https://www.freepik.com/free-vector/new-message-concept-landing-page_5777076.htm
-  -------------------------------------------------------------
-  -- Note: need to use inline svg to manipulate its components
-  ------------------------------------------------------------>
-
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 563" fill="none">
       <g id="Image">
         <g id="g14">
@@ -462,45 +457,31 @@
         </g>
       </g>
     </svg>
-
-
-    <!-- // FORM
-  -------------------------------------------------------------
-  ------------------------------------------------------------>
-
-    <form class="form" action="/" method="post">
-      <h1 class="txt-main title text-center mb-4" style="color: lightyellow !important;">Talk to Us</h1>
-
-      <!-- Name -->
-      <div class="form-group position-relative">
-        <label for="formName" class="d-block">
-          <i class="icon" data-feather="user"></i>
-        </label>
-        <input name="name" type="text" id="formName" class="form-control form-control-lg thick" style="margin-bottom: 10px" placeholder="Name">
-      </div>
-
-      <!-- E-mail -->
-      <div class="form-group position-relative">
-        <label for="formEmail" class="d-block">
-          <i class="icon" data-feather="mail"></i>
-        </label>
-        <input name="email" type="email" id="formEmail" class="form-control form-control-lg thick" style="margin-bottom: 10px" placeholder="E-mail">
-      </div>
-
-      <!-- Message -->
-      <div class="form-group message">
-        <textarea name="message" id="formMessage" class="form-control form-control-lg" rows="7" placeholder="message"></textarea>
-      </div>
-
-      <!-- Submit btn -->
-      <div class="text-center">
-        <button type="submit" class="btn btn-primary" tabIndex="-1" style="margin-top: 10px">Send message</button>
-      </div>
-    </form>
-
+    <section id="contact">
+      <form class="form" action="/" method="post">
+        <h1 class="txt-main title text-center mb-4" style="color: lightyellow !important;">Talk to Us</h1>
+        <div class="form-group position-relative">
+          <label for="formName" class="d-block">
+            <i class="icon" data-feather="user"></i>
+          </label>
+          <input name="name" type="text" id="formName" class="form-control form-control-lg thick" style="margin-bottom: 10px" placeholder="Name">
+        </div>
+        <div class="form-group position-relative">
+          <label for="formEmail" class="d-block">
+            <i class="icon" data-feather="mail"></i>
+          </label>
+          <input name="email" type="email" id="formEmail" class="form-control form-control-lg thick" style="margin-bottom: 10px" placeholder="E-mail">
+        </div>
+        <div class="form-group message">
+          <textarea name="message" id="formMessage" class="form-control form-control-lg" rows="7" placeholder="message"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary" tabIndex="-1" style="margin-top: 10px">Send message</button>
+        </div>
+      </form>
+    </section>
   </div>
   <script src="public/app.js" rel="server"></script>
-  <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
   crossorigin="anonymous"></script>

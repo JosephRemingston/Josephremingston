@@ -7,8 +7,15 @@ function redirect(){
                 window.open("https://github.com/JosephRemingston/Joseph_website_" , "__blank");
             }
             else if (btn_class[i] === "btn-portfolio-code"){
-                window.open("https://github.com/JosephRemingston/Joseph_website_" , "__blank");
+                window.open("https://github.com/JosephRemingston/josephremingston" , "__blank");
             }
         }
     })
 }
+document.addEventListener("DOMContentLoaded" , () => {
+    document.getElementById(".contact-btn").addEventListener("click" , () => {
+        document.querySelector("#contact").scrollIntoView({
+            behavior: "smooth"
+        })
+    })
+})

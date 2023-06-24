@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 .projects{
-    background: linear-gradient(#1a1a1a, #000000);
+   background-color: black;
     min-height: 100vh;
     padding: 40px;
 
@@ -371,7 +371,7 @@ button:focus+.design-container {
     color: lightyellow;
 }
 .main{
-    background: linear-gradient(#1a1a1a, #000000);
+   background-color: black;
     height: fit-content;
 }
 figure{
@@ -499,4 +499,7 @@ textarea {
     background-size: 100% 100%;
     transform: translateY(-0.15em);
 }
-
+footer{
+    background-color: black !important;
+    color: aliceblue !important;
+}
