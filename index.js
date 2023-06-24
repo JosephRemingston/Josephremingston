@@ -37,6 +37,6 @@ app.post('/', async (req, res) => {
       });
 });
 
-app.listen(200 , () => {
+app.listen(process.env.PORT , () => {
   console.log("server");
 })
