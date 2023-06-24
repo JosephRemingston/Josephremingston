@@ -14,6 +14,7 @@ var mailgun = new Mailgun(formData);
 var client = mailgun.client({username: 'api', key: API_KEY});
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 app.use(express.static(__dirname + "/"));
 
 // main
@@ -29,7 +30,7 @@ app.post('/', async (req, res) => {
     text: req.body.message
   };
   await client.messages.create(DOMAIN, messageData)
-      .then((res) => {
+      .then((response) => {
         console.log("Mail sent");
       })
       .catch((err) => {
