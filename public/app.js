@@ -2,6 +2,7 @@ redirect();
 function redirect(){
     document.addEventListener("click" , (e) => {
         let btn_class = e.target.classList;
+        console.log(btn_class);
         for (let i = 0 ; i < btn_class.length ; i++){
             if (btn_class[i] === "btn-portfolio-live"){
                 window.open("https://github.com/JosephRemingston/Joseph_website_" , "__blank");
@@ -9,13 +10,15 @@ function redirect(){
             else if (btn_class[i] === "btn-portfolio-code"){
                 window.open("https://github.com/JosephRemingston/josephremingston" , "__blank");
             }
+            else if (btn_class[i] === "instagram"){
+                window.open("https://www.instagram.com/gorgeousgamer7781" , "__blank");
+            }
+            else if (btn_class[i] === "linkedin"){
+                window.open("https://linkedin.com/in/joseph-remingston-8b6105259" , "__blank");
+            }
+            else if (btn_class[i] === "github"){
+                window.open("https://www.github.com/JosephRemingston" , "__blank");
+            }
         }
     })
 }
-document.addEventListener("DOMContentLoaded" , () => {
-    document.getElementById(".contact-btn").addEventListener("click" , () => {
-        document.querySelector("#contact").scrollIntoView({
-            behavior: "smooth"
-        })
-    })
-})
