@@ -1,4 +1,5 @@
 redirect();
+openpdf()
 function redirect(){
     document.addEventListener("click" , (e) => {
         let btn_class = e.target.classList;
@@ -17,6 +18,9 @@ function redirect(){
             }
             else if (btn_class[i] === "github"){
                 window.open("https://www.github.com/JosephRemingston" , "__blank");
+            }
+            else if (btn_class[i] === "pdf"){
+                window.open("Joseph'sResume.pdf" , "__blank");
             }
         }
     })
